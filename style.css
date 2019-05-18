@@ -1,0 +1,92 @@
+html, body {
+    margin: 0 -1% 0 -1%;
+    height: 100%;
+}
+
+.nav {
+	background-color: #689df2;
+/*	font-family: "Alfa Slab One", sans-serif;*/
+}
+
+.nav-link {
+	color: black;
+	font-size: 1.2em;
+}
+
+.nav-item {
+	margin: 0 2% 0 2%;
+}
+
+.landing {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 200px 200px 185px 200px;
+	background-color: #689df2;
+	/* background-image: url(https://i.imgur.com/WHNwaYk.jpg);
+	background-size: 105%; */
+
+}
+
+.heading {
+	text-align: center;
+	margin: 4em 0 2em 0;
+}
+
+.subheading {
+	display: flex;
+	justify-content: center;
+	margin: -1rem 0 3rem 0;
+}
+
+.btn-top {
+	margin: .5em 4rem 1em 4rem;
+	color: purple;
+	border-color: purple;
+}
+
+.btn-top:hover {
+	background-color: lightblue;
+	border: blanchedalmond;
+}
+
+.about {
+	background-color: grey;
+	display: grid;
+	padding: 8rem
+}
+
+.card {
+	margin: 0 auto; /* Added */
+	float: none; /* Added */
+	margin-bottom: 10px; /* Added */
+	text-align: center;
+	background-color: lightgrey;
+	opacity: 8%;
+	background-image: url(https://i.imgur.com/WHNwaYk.jpg);
+	background-size: 105%;
+}
+
+.card:hover {
+	box-shadow: 5px blanchedalmond;
+}
+
+.form-container {
+	margin: 2rem;
+}
+
+.newsletter {
+	background-color: #689df2;
+	margin: 0 ;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+} 
+
+.email {
+	width: 50%;
+}
+
+.newsletter-submit {
+	margin: 0 0 9rem 0;
+}
