@@ -53,7 +53,13 @@ html, body {
 .about {
 	background-color: grey;
 	display: grid;
-	padding: 8rem
+	/* padding: 8rem */
+}
+
+.card-container {
+	display: grid; 
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 
 .card {
